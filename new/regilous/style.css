@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-image: url(images/Egyptian_hieroglyphics.jpg);
+    background-size: cover;
+    
+    height: 100%;
+}
+.container{
+    padding: 60px 120px ;
+}
+.search{
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 90%;
+}
+.search__box{
+    width: 80%;
+    margin-left: 100px;
+    border: 2px solid #974E39;
+    border-radius: 25px;
+    padding: 10px 30px 10px 60px;
+    font-size: 25px;
+    outline: none;
+}
+.search i{
+    position: absolute;
+    top: 23px;
+    left: 125px;
+    font-size: 25px;
+}
+.imgs{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+.imgs img{
+    overflow: hidden;
+    width: 603px;
+    height: 354px;
+}
+.imgs p{
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 200px;
+    background-color: #d9d9d990;
+    padding: 5px 20px ;
+    border-radius: 25px;
+}
+.imgs .Sayyidah{
+    margin-left: 165px;
+}
+.last_img{
+    margin-left: 280px;
+}
+.affect_last{
+    margin-left: -280px;
+}
+@media (max-width:1024px){
+    .imgs img{
+        overflow: hidden;
+        width: 400px;
+        height: 354px;
+    }
+    .imgs p{
+        font-size: 22px;
+        text-align: center;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 105px;
+        background-color: #d9d9d990;
+        padding: 5px 20px ;
+        border-radius: 25px;
+    }
+    .imgs .Sayyidah{
+        margin-left: 72px;
+    }
+}
+@media (max-width:991px){
+    .imgs{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        
+    }
+    .imgs > div{
+        margin-bottom: 50px;
+    }
+    .imgs img{
+        overflow: hidden;
+        width: 550px;
+        height: 354px;
+    }
+    .last_img{
+        margin-left: 0px;
+    }
+    .affect_last{
+        margin-left: 0px;
+    }
+    .imgs p{
+        font-size: 22px;
+        text-align: center;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 178px;
+        background-color: #d9d9d990;
+        padding: 5px 20px ;
+        border-radius: 25px;
+    }
+    .imgs .Sayyidah{
+        margin-left: 138px;
+    }
+}

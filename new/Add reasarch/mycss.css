@@ -1,0 +1,141 @@
+.body-style::-webkit-scrollbar-thumb {
+    background: rgba(110, 110, 110, 0.25) !important;
+    opacity: 0.25;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-radius: 7px;
+  }
+
+section
+{
+    background-image: url(images/Screenshot\ 2023-02-25\ 173721.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.login-header h1
+{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100px;
+    /* identical to box height */
+    
+
+    
+    color: #974E39;
+}
+.login
+{
+    background: rgba(253, 197, 146, 0.65);
+background-blend-mode: luminosity;
+height: 100vh;
+width: 70%;
+margin: auto;
+padding: 0px 45px;
+overflow: auto;
+}
+.inputs-div label
+{
+    font-family: 'Cairo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 45px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+input:not([type="checkbox"])
+{
+    border: 3px solid #974E39 !important;
+border-radius: 30px !important;
+
+background-color:transparent !important;
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+.login-btn p{
+    margin-top: 15px;
+}
+.login-btn button
+{
+    background: #974E39;
+    border-radius: 10px;
+    width: 40%;
+    font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+
+padding: 10px 15px;
+
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+.forget-link 
+{
+    font-family: 'Cairo';
+    font-style: normal;
+   
+    font-size: 22px;
+
+
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+.create-account p
+{
+    font-family: 'Cairo';
+font-style: normal;
+
+font-size: 22px;
+line-height: 60px;
+margin-top: 45px;
+text-align: center;
+
+color: #000000;
+}
+.create-account p a
+{
+    color: #000000;
+    font-weight: 800;
+}
+
+
+.inputs-1{
+    height: 55px;
+}
+
+.btn-1{
+    background: #974E39;
+    border-radius: 10px;
+    width: 40%;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    padding: 20px 30px;
+    
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-image: url(../../html/images/Screenshot\ 2023-02-25\ 191854.png);
+    background-size: cover;
+    
+    height: 100%;
+}
+.contact{
+    position: relative;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #3333336d;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    color: var(--main-color);
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.contact .content p{
+    font-weight: 400;
+    
+}
+.contact .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contact .container .contactInfo{
+    width: 40%;
+    display: flex;
+    margin-top: -70px;
+    flex-direction: column;
+}
+.contact .container .box {
+    display: flex;
+    padding: 20px 0;
+    position: relative;
+}
+.contact .container .icon{
+    min-width: 50px;
+    height: 50px;
+    background-color: #974E39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-top: 7px;
+}
+.contact .container .icon:hover{
+    transform: scale(1);
+}
+.contact .container .icon i{
+    color: var(--main-color);
+}
+.contact .container .box .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+.contact .container .box .text h3{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+.marg{
+    margin-left: 4rem;
+}
+.contact .container .box .text p{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/**/
+.contactForm{
+    width: 40%;
+    padding: 40px;
+
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top:10px ;
+}
+.next__to{
+    display: flex;
+    column-gap: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    color: #333;
+    padding: 24px 15px;
+    font-size: 17px;
+    margin: 10px 0;
+    border: 1px solid #974E39;
+    border-radius: 20px;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox .submit{
+        width: 40%;
+        margin-left: 35%;
+        text-align: center;
+        background-color: #974E39;
+        border: none;
+        padding: 15px 7px;
+        font-size: 19px;
+        transition: 0.1s ease-in-out;
+        color: #fff;
+}
+.contactForm .inputBox .submit:hover{
+    background-color: #8c4430;
+    cursor: pointer;
+}
+@media screen and (max-width:991px){
+    .contact .container{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .contactForm{
+        width: 90%;
+    }
+    .contact .container .contactInfo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen and (max-width:767px){
+    .contact{
+    position: relative;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    .contact .container{
+        flex-direction: column;
+    }
+    .contactForm{
+        width: 100%;
+    }
+    .contact .container .contactInfo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen and (max-width:374px){
+    .contact .container .box .text {
+    margin-left: 10px;
+}
+    .contact .container .contactInfo .text p{
+        font-size: 13px;
+    }
+}

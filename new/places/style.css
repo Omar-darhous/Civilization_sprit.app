@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-image: url(images/Screenshot\ 2023-02-25\ 191854.png);
+    background-size: cover;
+    
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: #000000;
+    margin-bottom: 2%;
+}
+.text_container h1{
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.text_container .big_prag{
+    max-width: 450px;
+    font-size: 21px;
+    line-height: 1.8;
+    margin-bottom: 120px;
+}
+.current_text{
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.current_text.padding{
+    padding-top: 25px;
+}
+.current_text i{
+    font-size: 18px;
+    color: #FFBA08;
+   
+}
+
+
+.images_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 50%;
+    column-gap: 20px;
+}
+.images_container img{
+   border-radius: 20px;
+}
+.images_container .image2{
+    width: 390px;
+    height: 354px;
+    margin-left: -200px;
+
+}
+.image3{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+@media(max-width:1024px){
+    .images_container{
+        grid-template-columns: 1fr;
+    }
+    .images_container .image2{
+        margin: 20px 0;
+    }
+    .image3{
+        margin: 20px 0;
+    }
+}
+@media(max-width:991px){
+    .container{
+        flex-direction: column;
+    }
+}
+.Portfolio-layer{
+    color: #000000;
+    font-size: 20px;
+}
+.Portfolio-layer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.collapse ul li a
+{
+    display: flex !important ;
+    justify-content: space-around   !important;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+    margin-left: 30px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.search{
+    margin-right: 20px;
+}
+.logout-btn
+{
+    background: #974E39;
+border-radius: 7px;
+width: 160px !important;
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+

@@ -1,0 +1,59 @@
+body{
+    background-image: url(images/Screenshot\ 2023-02-25\ 191854.png);
+    background-size: cover;
+    
+    height: 100%;
+}
+.Portfolio-layer{
+    color: #000000;
+    font-size: 20px;
+}
+.Portfolio-layer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.collapse ul li a
+{
+    display: flex !important ;
+    justify-content: space-around   !important;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+    margin-left: 30px !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.search{
+    margin-right: 20px;
+}
+.logout-btn
+{
+    background: #974E39;
+border-radius: 7px;
+width: 160px !important;
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
